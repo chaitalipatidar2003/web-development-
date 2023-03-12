@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>HERE'S CHAITALI❤️</title>
+
+    <link rel="stylesheet"  type="" href="css\css\css\styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+</head>
+<body>
+    <div class="top-container">
+        <img class="top-cloud" src="C:\Users\hp\OneDrive\Desktop\HTML\css-my site\cloud_2601-fe0f.png" alt="cloud img">
+        <h1 >It's me, Chaitali</h1> 
+        <p> A <span class="pro"> prog</span>rammer.</p>
+        <img class="bottom-cloud" src="C:\Users\hp\OneDrive\Desktop\HTML\css-my site\cloud_2601-fe0f.png" alt="cloud img">
+        <img class="moun"  src="C:\Users\hp\OneDrive\Desktop\HTML\css-my site\mountain_26f0-fe0f.png" height="300px"  width="250px" alt="mountain-img">
+        
+    </div>
+   
+    <div class="middle-container">
+<img class="profile circular" src="https://media.licdn.com/dms/image/D5603AQFcjDHqMD6X0w/profile-displayphoto-shrink_400_400/0/1671475731679?e=1684368000&v=beta&t=qMEuDpOyyev6ViKsSYF2GYa20be-gkxd-5QG-S5uPHc" alt="MY-PROFILE">
+<h2>Hello.</h2>
+<p>Being <strong>a moody girl</strong>, i love myself. <br>I always wanted to go according to my choices , not
+    by others. <br> My choices are also different.....at a moment i choose something and at the next second i can
+    switch to other choice.</p>
+
+</div>
+
+<hr noshade="">
+
+    <div class="Skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+            <img src="https://t4.ftcdn.net/jpg/01/31/96/99/360_F_131969925_4npM7jqii8Dlo76mRROdD0r285Oojc8d.jpg" alt="skills">
+            
+            <ul>
+                <li>C/C++</li>
+                <li>HTML</li>
+                <li>OOPS</li>
+                <li>SKETCHING</li>
+                <li>DS</li>
+            </ul>
+        </div>
+    </div>
+
+    <hr noshade="">
+    <div class="contact-me">
+        <h2>Get in Touch</h2>
+        <img src="https://cdn-icons-gif.flaticon.com/6172/6172532.gif" alt="social-media" height="100px" width="100px">
+<h3>Follow me on this sources.</h3>
+
+<a class="btn" href="mailto:chaitalip2003@gmail.com">CONTACT ME</a>
+    </div>
+    <br>
+    <br>
+    <div class="bottom-section" > 
+        <a href="https://www.linkedin.com/in/chaitali-patidar-20a1b2228">LinkedIn</a> <br>
+        <a href="https://github.com/chaitalipatidar2003/personal-website">Github</a> <br>
+        <a href="chaitalipatidar_12">instagram</a> <br>
+        <p> * 2023 Chaitali Patidar</p>
+    </div>
+</body>
+</html>
+
+**********************************************************************************
+
+body{
+    margin: 0;
+    text-align: center;
+
+    font-family: "meriweather", sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 0;
+    font-style:oblique;
+    font-family: "sacramento",cursive;
+}
+hr{
+    width: 30%;
+    height: 2px;
+}
+.circular{
+    border-radius:50%;
+} 
+
+.top-container{
+    background-color: #F1DEC9;
+    position: relative;
+    padding-top: 100px;
+    /* height: 200px;
+    width: 10000px; */
+    /* border: solid 10px; */
+    
+    /* padding-left: 40%; */
+    
+   /* padding-top: 30px;  */
+}
+.middle-container{
+    /* height: 200px;
+    width: 200px; */
+    /* background-color: rgb(176, 189, 141); */
+    /* border:solid 20px;
+    margin-left:240px ; */
+    padding-top: 100px;
+    background-color: #b7c697;
+}
+.bottom-container{
+    /* height: 200px;
+    width: 200px; */
+    /* background-color:yellow; */
+    /* border: solid 10px;
+    margin-left: 480px; ; */
+    background-color: #F1DEC9;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.bottom-cloud{
+    position:absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 100px;
+}
+
+
+
+.moun{
+    padding-left: 400px;
+    width: 400px;
+    height: 500px;
+}
+table{
+    align-self: center;
+}
+.Skills{
+    background-color: beige;
+}
+.contact-me{
+    background-color: blanchedalmond;
+}
+.bottom-section{
+    background-color: aliceblue;
+}
