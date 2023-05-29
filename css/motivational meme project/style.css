@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.outer{
+    background-color: black;
+    color: white;
+    padding: 8% 25%  3% ;
+    text-align: center;
+    line-height: 3em;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    height: 100%;
+}
+.inner{
+    text-align: center;
+    width: 80%;
+    margin-left: 5%;
+    line-height: 3em;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    font-family: "Libre Baskerville", serif;
+}
+
+img{
+border: 5px solid white;
+text-align: center;
+width: 100%;
+}
+h4{
+    font-size: large;
+}
+h1{
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+.cat{
+    background-color: aquamarine;
+ width: 40%;
+    display: inline-block;
+    margin: 0;
+    float: left;
+    left:0px;
+   position: relative;
+}
+
+.dog{
+    background-color: coral;
+    width: 40%;
+    display: inline-block;
+    margin-right: 0;
+    float: right;
+   
+}
+img{
+    float: left;
+    height: 202px;
+    width: 185px;
+}
+footer{
+    background-color: blueviolet;
+width: 100%;
+clear: left;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    text-align: left;
+}
+p{
+    font-size: 2.1rem;
+}
+footer> p{
+    font-size: 1.2rem;
+}
+
+section{
+    background-color: blue;
+}
+@media (min-width:419px) and ( max-width:580px) {
+    section{
+        background-color: lightsalmon;
+    }
+}
+@media (min-width:580px) and ( max-width:1200px) {
+    section{
+        background-color: powderblue;
+    }
+}
+@media (min-width:1200px) and ( max-width:1600px) {
+    section{
+        background-color: limegreen;
+    }
+}
+@media (min-width:1600px)  {
+    section{
+        background-color: seagreen;
+    }
+}

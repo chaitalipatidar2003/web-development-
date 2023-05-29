@@ -1,0 +1,17 @@
+.yellow{
+    color: yellow;
+    padding-left: 0px;
+    padding-bottom: 0;
+}
+.outer{
+    background-color: blue;
+    margin: 10px;
+    border: 10px solid purple;
+    padding: 0 20px;
+}
+.inner{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    margin: 20px;
+}

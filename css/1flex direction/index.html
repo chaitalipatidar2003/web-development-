@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex direction</title>
+    <style>
+        .container {
+            border: 5px solid orange;
+            display: flex;
+            flex-basis: auto;
+            flex-direction: row;
+            justify-content: center;
+            height: 50vh;
+            width: 100vh;
+            
+        }
+
+        .red {
+            background-color: red;
+            width: 200px;
+            order: 2
+            
+        }
+
+        .blue {
+            background-color: blue;
+            width: 200px;
+        }
+
+        .green {
+            background-color: green;
+            width: 200px;
+        }
+
+        .yellow {
+            background-color: yellow;
+            width: 200px;
+        }
+
+        .pink {
+            background-color: pink;
+            width: 200px;
+            order: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="red">red</div>
+        <div class="blue">blue</div>
+        <div class="green">green</div>
+        <div class="yellow">yellow</div>
+        <div class="pink">pink</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRICING</title>
+    <style>
+       
+        .pricing-container{
+            display: inline-flex;
+            
+            border-radius: 5px;
+            height: 40vh;
+            padding: 10px;
+            text-align: center;
+            flex-direction: column;
+            gap: 2rem;
+            width: 30%;
+            background-color: #f2f2f2;
+            align-items: center center;
+            margin: 10px;
+            margin-top: 10%;
+            justify-content: center;
+        }
+
+        .pricing-type{
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .pricing-cost > p{
+            font-weight: bold;
+            font-size: 48px;
+            margin-bottom: 5px;  
+            margin-top: 0;
+        }
+        .pricing-cost> li{
+            /* display: list-item; */
+            margin-bottom: 20px;
+            list-style-type: square;
+        }
+
+        button{
+            padding: 10px;
+            background-color: rgb(240, 81, 14);
+            color: white    ;
+            border-radius: 5px;
+            border: none;
+        }
+        @media (max-width:1250px) {
+            .pricing-container{
+                flex-direction: column;
+                height: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="pricing-container ">
+        <div class="pricing-type">Basic</div>
+        <div class="pricing-cost">
+           <p> $9.99/month</p>
+            <ul>
+                <li>✅ 10GB Storage</li>
+                <li>✅ 1 User</li>
+                <li>🚫 Support</li>
+            </ul>
+            <button class="plan-button">Sign up</button>
+        </div>
+
+    </div>
+
+    <div class="pricing-container ">
+        <div class="pricing-type">Standard</div>
+        <div class="pricing-cost">
+           <p> $19.99/month</p>
+            <ul>
+                <li>✅ 50GB Storage</li>
+                <li>✅ 5 Users</li>
+                <li>✅ Phone & Email Support</li>
+            </ul>
+            <button class="plan-button">Sign up</button>
+        </div>
+    </div>
+    <div class="pricing-container ">
+        <div class="pricing-type">Premium</div>
+        <div class="pricing-cost">
+           <p> $49.99/month</p>
+            <ul>
+                <li>✅ 100GB Storage</li>
+                <li>✅ 10 Users</li>
+                <li>✅ 24/7 Support</li>
+            </ul>
+            <button class="plan-button">Sign up</button>
+        </div>
+    </div>
+
+</body>
+</html>

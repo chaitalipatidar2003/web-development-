@@ -1,0 +1,73 @@
+*{
+    margin: 10px;
+    padding: 0px; 
+    font-size: large;
+    font-weight: bold larger;
+        
+}
+body{
+    padding:20px;
+}
+div{
+    /* padding-top: 20px; */
+    display: inline-block;
+}
+.beauty{
+    float: left;
+    width: 40%;
+    /* display: inline; */
+   
+}
+.construction{
+    float: right;
+    width: 40%;
+/* 
+    display: inline; */
+}
+img{
+    float: left;
+    width: 250px;
+    height: 210px;
+    padding: 10px;
+}
+.logo{
+    display: block;
+    float: left;
+    height: auto;
+    width: auto;
+}
+div> p{
+    margin-left: 10px;
+    padding: 20px;
+}
+h1{
+    text-transform: capitalize;
+    clear: left;
+    font-size: 4.5rem;
+    font-weight: 700;
+    padding: 10px;
+}
+h3{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+span{
+    color: midnightblue;
+   
+    font-size: larger;
+}
+footer{
+    clear: right;
+    float: right;
+    color: blue;
+}
+.container{
+    display: inline-flex;
+    gap: 10px;
+}
+/* @media (max-width:50%) {
+    contaner{
+    grid-column: auto auto;    
+    }
+    
+} */

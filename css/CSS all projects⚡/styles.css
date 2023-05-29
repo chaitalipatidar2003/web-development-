@@ -1,0 +1,47 @@
+/* TAG SELECTOR */
+body {
+    background-color: rgb(171, 218, 176);
+}
+
+hr {
+
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(181, 71, 71);
+    border-width: 5px;
+    height: 0px;
+
+    width: 5%;
+
+}
+
+img :hover{
+    background-color: gold;
+}
+
+h4{
+    color: red;
+}
+
+/* CLASS SELECTOR */
+
+.desktop{
+    background-color: rgb(16, 26, 74);
+    background-clip:initial ;
+    border-color: rgb(140, 169, 52);
+}
+.Mobile{
+    background-color:rgb(186, 31, 31);
+}
+
+.circular{
+    border-radius:10cm;
+} 
+
+
+/*ID SELECTOR */
+
+#heading{
+    color: rgb(36, 132, 192);
+}
+
