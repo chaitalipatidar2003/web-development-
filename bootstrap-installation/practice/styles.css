@@ -1,0 +1,63 @@
+body{
+    background-color:  hsl(212, 45%, 89%);
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    width: 0;
+    /* background-image: url(https://kinsta.com/wp-content/uploads/2021/03/wordpress-background-image-1024x512.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.qr-img{
+/* margin: 100px auto 500px auto ; */
+/* border-width: 500px 50px 50px 200px; */
+border-color:solid white;
+height: 250px;
+width: 250px;
+border-radius: 20px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+/* padding: 20px auto 20px 20px; */
+}
+h1{
+    font-size: 20px;
+    font-family: "outfit", sans-serif;
+}
+p{
+    color: grey;
+}
+div{
+    height: 100%;
+    border-width: 10px 10px 50px 10px;
+border-color:solid white;
+/* margin-left: 100px; */
+margin: 100%;
+width: 500px;
+/* padding: 25px 25px 25px 25px; */
+}
+.top{
+    width: 1024px;
+    /* border-width: 10px 10px 10px 100px; */
+    border-color:solid white;
+    align-items: center;
+    padding: 10%;
+    /* margin: 2px 2px 5px 2px; */
+    
+    
+}
+.inner-top{
+    margin: 1px 1px 1px 10px;
+    background-color:white;
+    /* margin: 2px 2px 5px 2px; */
+    width: 30%;
+    text-align: center;
+    height: 10%;
+    width: 270px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin: 100px  50%  100px ;
+    
+    
+}

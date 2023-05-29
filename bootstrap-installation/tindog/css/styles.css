@@ -1,0 +1,203 @@
+body{
+    font-family: "Montserrat-black";
+    text-align: center;
+}
+h1,h2,h3,h4 ,h5,h6{
+    font-family: "Montserrat-black";
+}
+
+p{
+    /* text-align: center; */
+
+    color: grey;
+}
+
+
+
+.header-text{
+    font-family: "Montserrat-black";
+    size: 4rem;
+    line-height: 1.5;
+    width: 70%;
+    font-weight: normal;
+    word-spacing: 3px;
+    
+}
+
+#title{
+    background-color: rgb(222, 74, 74);
+    color: white;
+    text-decoration: solid;
+    font-weight: bold;
+    height: 700px;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container{
+    padding: 3% 15%  7%;
+}
+/* navigation bar */
+
+.navbar {
+    padding-bottom:0 0 4.5rem ;
+    margin-bottom: 50px;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 2.5rem;
+    
+}
+.nav-item{
+    padding: 0 10px;
+}
+.nav-link{
+    font-size: 1.4rem;
+    font-family: "Montserrat-light";
+}
+/* download-button */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.title-img{
+    width: 26%;
+    transform: rotate(25deg);
+    /* z-index: -1; */
+    position: absolute;
+    animation: widthAnimate 3s ease-in-out 1s infinite normal ;
+}
+
+@keyframes widthAnimate {
+    from{
+        width:400px;
+    }
+    to{
+        width:600px;
+    }
+}
+/* .fa-solid fa-circle-check{
+    color: rgb(222, 74, 74);
+ 
+}
+.fa-sharp fa-solid fa-bullseye{
+    color: rgb(222, 74, 74);
+}
+.fa-solid fa-heart{
+    color: rgb(222, 74, 74);
+} */
+
+i{
+    color: rgb(207, 97, 97);
+    padding: 7% 15%;
+    margin-top: 30px;
+}
+i:hover{
+    color: goldenrod;
+}
+
+#features{
+    padding: 5%;
+    text-align: center;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+#testimonials{
+    
+    text-align: center;
+    background-color: rgb(207, 97, 97);
+    color: white;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: rgb(207, 97, 97);
+    text-align: center;
+    padding-bottom: 3%;   
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 100px;
+    background-image: url("https://www.cdc.gov/healthypets/images/pets/cute-dog-headshot.jpg?_=42445");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-attachment: scroll; */
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5rem;
+}
+
+/* media point breakpoints */
+@media (max-width:788px) {
+    h1{
+        text-align: center;
+    }
+    #title{
+        text-align: center;
+    }
+    .title-img{
+       
+        position: static;
+        transform: rotate(0);
+    }
+    
+}
+
+/* cta-section */
+
+#cta{
+    background-color:rgb(222, 74, 74) ;
+    text-align: center;
+    color: white;
+    
+    height: 300px;
+    padding: 7% 15%;
+    line-height: 1.5rem;
+}
+.cta-heading{
+    font-family: "Montserran-black";
+    font-size: 3,5rem;
+    line-height: 1.5;
+}
+.btn{
+padding:5px;
+margin:5% 3% 3% 3% ;
+}
+
+/* footer section */
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.social-icon{
+    margin: 15px 10px;
+}
